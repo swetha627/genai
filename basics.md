@@ -9,7 +9,15 @@ Example -
   **GPT**: Generative Pre-Trained Transformer
 
 
-Scaling Laws of Neural Language Models: This paper from openai shares insights about how loss factor is linear for Compute, Dataset Size and Model Size - **power law**
+Scaling Laws of Neural Language Models: This paper from openai shares insights about how loss factor is linear for Compute, Dataset Size and Model Size
+
+
+
+**One hot Encoding**:
+
+**Embeddings**:
+
+**Transformers**: 
 
 
 
