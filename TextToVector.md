@@ -1,4 +1,5 @@
 ML/DL model only input numerical data to perform training and prediction operations. So we have to convert text to numbers
+
 Vectorization Techniques:
 
    1. BOW - Bag of Words
