@@ -2,9 +2,9 @@
 
 **Terms**:
 
-Document - each row in dataset is called a document
+Document: each row in dataset is called a document
 
-Corpus - collection of documents is called a corpus
+Corpus: collection of documents is called a corpus
 
 Vocabulary: unique words in corpus
 
@@ -29,8 +29,10 @@ Chunking: extracting meaningful phrases/chunks from the sentences
 
 Text processing is cleaning text data for analysis and predictions
   1. removal of punctuations, HTMLtags, URL's, extra spaces, **contraction(don't -> do not)**, special characters and numbers
+
       use re.sub(pattern, replacement, string)
       example to remove {} re.sub(r[\{\}], "", sentence)
+  
   3. convert to lowercase - lower() method 
   4. Apply Tokenization
   5. Stop Word removal
