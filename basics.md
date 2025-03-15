@@ -32,7 +32,7 @@ Text processing is cleaning text data for analysis and predictions
 
       use re.sub(pattern, replacement, string)
       
-      example to remove {} re.sub(r[\{\}], "", sentence)
+      example to remove {} : re.sub(r[\{\}], "", sentence)
   
   3. convert to lowercase - lower() method 
   4. Apply Tokenization
