@@ -3,15 +3,25 @@
 **Terms**:
 
 Document - each row in dataset is called a document
+
 Corpus - collection of documents is called a corpus
+
 Vocabulary: unique words in corpus
+
 Segmentation: breaking multiple sentences into single individual sentences
+
 Tokenization: breaking sentence into words. each word is called a token
+
 Stop words: common words used in language with less significance
+
 Stemming: process of removing/replacing the suffix of the word to get base word(sometimes meaning of the word can be lost)
+
 Lemmatization: same as Stemming, But here words have dictionary meaning
+
 NER tagging: Named entity recognition
+
 POS tagging: adding parts of speech to each word
+
 Chunking: extracting meaningful phrases/chunks from the sentences
 
 
