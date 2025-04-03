@@ -1,4 +1,4 @@
-# **Transformers and Sequence Modeling**
+# **Transformers**
 
 ## **Sequence Modeling**  
 Building a system that can predict the next token in a sequence is called **Sequence Modeling**. The **Transformers** architecture is highly effective in predicting the next token in a sequence.  
