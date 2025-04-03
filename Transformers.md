@@ -31,8 +31,9 @@ The **attention mechanism** calculates weights to determine how much focus shoul
 
 ## **Encoder-Decoder Architecture in Transformers**  
 
-### **Encoder**  
-The encoder converts the input into a specific format called **embeddings**.  
+### **Encoder** 
+Pre-processed input after generating Embeddings using Word2Vec/BERT along with  positional encodings to capture token order is passed to Encoder.
+The encoder processes the **input into meaningful representations by applying multi-head attention and a feed-forward network**. 
 
 #### **Step 1: Multi-Head Self-Attention**  
 - The attention process is **split into multiple heads**, where each head performs its own attention computation in parallel.  
@@ -61,3 +62,14 @@ The decoder **uses embeddings from the encoder's output** to predict the next to
    - This sublayer **uses encoder embeddings** to understand the context and generate the next appropriate token.  
 3. **Fully Connected Feed-Forward Network:**  
    - Helps refine the decoder's understanding of the input and its context.
+   - The final decoder layer produces a logit vector (raw predictions).
+   - A softmax function converts these logits into probabilities for each possible next token.
+   - The highest probability token is selected as the next output.
+
+**Summary of Data Flow**
+
+Input Processing → Tokenization → Embeddings → Positional Encoding.
+Encoder → Multi-Head Attention → Feed-Forward → Layer Norm.
+Decoder → Masked Attention → Cross-Attention → Feed-Forward.
+Output Prediction → Softmax → Next Token Selection.
+Auto-Regressive Generation → Repeat until the sentence is complete.
