@@ -56,7 +56,7 @@ The decoder **uses embeddings from the encoder's output** to predict the next to
 
 #### **Decoder Components:**  
 1. **Masked Multi-Head Attention Layer:**  
-   - The model **must not look at future tokens** while predicting the next token.  
+   - masking **prevents future tokens from being seen**, ensuring autoregressive behavior.
 2. **Cross-Attention Layer:**  
    - This sublayer **uses encoder embeddings** to understand the context and generate the next appropriate token.  
 3. **Fully Connected Feed-Forward Network:**  
