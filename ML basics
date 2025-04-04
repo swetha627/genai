@@ -1,0 +1,26 @@
+Supervised, Unsupervised and Reinforcement learning
+
+Supervised Learning: Train using labelled data **Classification, Regression**
+
+Unsupervised Learning: Train using Unlabled data, Model Learns patterns in the data 
+  **Clustering**: Group similar data together
+  **Anamoly Detection**: Find the outliers in the data
+  **Association**: Like recommending to buy jam when you buy bread. Associate similar data points
+  **Autoencoders**: Autoencoders take input data, compress it into a code, then try to recreate the input data from that summarized code
+  **Variational AutoEncoders**: Encoder-Decoder( Encoder-compress the data, Decoder- reconstruct the data from compressed data by removing irrelevant information)
+  **Diffusion models**: Two steps during the training: Forward Diffusion(adds random noise to training data), Reverse Diffusion(reverses the noise to reconstruct the data samples)
+  **GAN**:
+  **Transformers**: Architecture based on self-attention, used for sequential data — originally for NLP (like BERT, GPT), now also in vision and audio.
+
+Reinforcement Learning:  AI agents are attempting to find the optimal way to accomplish a particular goal, or improve performance on a specific task. 
+  As the agent takes action that goes toward the goal, it receives a reward. The overall aim: predict the best next step to take to earn the biggest final reward.
+  It’s an iterative process: the more rounds of feedback, the better the agent’s strategy becomes.
+
+Semi Supervised Learning: Combination of both Labeled and Unlabeled data, useful when extracting relevant features is difficult and labeling is time-intensive
+  ex: **GAN- generative adversarial network**
+  There is Generator and Discriminator
+  Generator: Tries to generate new data points that mimic the training data
+  Discriminator: pulls in these newly generated data and evaluates whether they are part of the training data or fakes.  
+  The networks improve in a positive feedback loop — as the discriminator gets better at separating the fakes from the originals, the generator improves its ability to create convincing fakes.
+
+Semi-Supervised/Unsupervised  Learning techniques as given the ability to more easily and quickly leverage a large amount of unlabeled data to create foundation models. 
