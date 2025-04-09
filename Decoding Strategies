@@ -3,12 +3,14 @@
   Happens at the start of the request
   Model processes to build an **internal state also called as KV CACHE**
   No tokens are generated at this phase, it is only preparing the context
+  Compute Bound operation
 
 **Decode Phase**:
   also called as Generation phase/Auto regressive phase
   Model begins generating tokens one by one
   Each token is generated based on the previous one and stored context
   KV cache built in the previous state is reused so this phase is faster
+  Memory Bound Operation: speed of generation of tokens depends on the retrieval of the K,V from cache
 
 **KV CACHE**:
   In attention layers Instead of computing K, V and Q again during decode phase just cache and reuse them
