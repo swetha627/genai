@@ -39,6 +39,7 @@
     High temperature(>1) -> more randomness
     Low temperature(<1) -> more confident/predictable
     No lookahead
+  **Parallel Sampling**
   **Contrastive Decoding**:
   **Speculative Decoding**:
  
