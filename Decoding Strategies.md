@@ -1,13 +1,14 @@
 **Prefill Phase**:
-  also called as prompt phase/intial context phase
   
-  Happens at the start of the request
+   also called as prompt phase/intial context phase
+  
+   Happens at the start of the request
  
-  Model processes to build an **internal state also called as KV CACHE**
+   Model processes to build an **internal state also called as KV CACHE**
   
-  No tokens are generated at this phase, it is only preparing the context
+   No tokens are generated at this phase, it is only preparing the context
   
-  Compute Bound operation
+   Compute Bound operation
 
 **Decode Phase**:
   
