@@ -1,5 +1,4 @@
 **Prefill Phase**:
-  
   also called as prompt phase/intial context phase
   
   Happens at the start of the request
