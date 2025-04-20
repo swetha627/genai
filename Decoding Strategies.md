@@ -70,7 +70,7 @@ For same input, there will be variations in the output
   
   **Temperature Sampling**:
     
-    Applies probability to the probability to the probability distribution
+    Applies probability  to the probability distribution
     
     High temperature(>1) -> more randomness
     
@@ -82,7 +82,7 @@ For same input, there will be variations in the output
   
   **Contrastive Decoding**:
   
-  **Speculative Decoding**:
+  **Speculative Decoding**: Use small model to generate token which bigger model can accept or reject
  
     
   
